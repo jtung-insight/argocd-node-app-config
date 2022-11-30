@@ -14,6 +14,6 @@ spec:
     spec:
       containers:
         - name: node-app
-          image: tungster/nodeappdev:10
+          image: tungster/nodeappdev:11
           ports:
             - containerPort: 3000
