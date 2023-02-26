@@ -14,6 +14,6 @@ spec:
     spec:
       containers:
         - name: node-app
-          image: jtung-insight/examplenode-dev:2
+          image: insightwebcontainerregistry.azurecr.io/config-server:1.0.0
           ports:
             - containerPort: 3000
